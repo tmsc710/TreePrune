@@ -34,4 +34,5 @@ class Tree(View):
 						if indicator["id"] and int(indicator["id"]) != int(kpi_ids):
 							del indicator
 
+		print("Just for development branch.")
 		return HttpResponse(cursor)
